@@ -27,6 +27,7 @@ public class Bank {
 
     //Display all accounts
     public void displayAllAccounts(){
+        System.out.println("All accounts:");
         for (Account account : accounts){
             account.checkBalance();
             System.out.println("------------------");
